@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> :hover - Workshop Front End</title>
+  <link rel="stylesheet" type="text/css" href="../General/style.css">
+  <link rel="stylesheet" type="text/css" href="hover.css">
+  <meta charset="UTF-8">
+</head>
+<body>
+  <!-- TEXTO INFORMATIVO -->
+  <section class='lateral-left'>
+    <div class='information'>
+    <div class='hover-info'>
+      <h1>Hover</h1>
+      <p>
+        El <strong class='important'>hover</strong> se utiliza para hacer un "cambio de estado" cuando el <strong class='important'>mouse
+        se posiciona sobre un objeto.</strong>
+      </p>
+      <p>
+        Para aplicarle estilos de hover a un objeto, tenemos que usar la pseudo-clase <strong>:hover</strong>
+        <br/>
+        <br/>
+        Ej:
+        <br/>
+      <pre>
+      <code>
+        .btn:hover {
+          background-color: orange;
+        }
+      </code>
+      </pre>
+      </p>
+    </div>
+    </div>
+    <div class='exercise'>
+       <h1>Aplicando :hover</h1>
+       <ol>
+         <li>
+            El boton con la clase <strong>.btn-foo</strong> cuando se hace hover tiene que cambiar el color de fondo.
+         </li>
+         <li>
+            El boton con la clase <strong>.btn-baz </strong>cuando se hace hover debe cambiar el tamaño del texto.
+         </li>
+         <li>
+            El boton con la clase <strong>.btn</strong> debe cambiar el color del texto.
+         </li>
+         <li>
+            El boton con la clase <strong>.btn-bar</strong> debe aplicar los mismos estilos que los anteriores.
+         </li>
+       </ol>
+    </div>
+
+  </section>
+  <!-- FIN TEXTO INFORMATIVO -->
+
+  <section class='lateral-right'>
+    <nav>
+      <ul>
+        <li>
+          <a href="#foo" class='btn btn-bar'>Foo</a>
+        </li>
+        <li>
+          <a href="#bar" class='btn  btn-foo'>Bar</a>
+        </li>
+        <li>
+          <a href="#baz" class='btn btn-baz'>Baz</a>
+        </li>
+      </ul>
+    </nav>
+  </section>
+  <a href="active.html" class='pages' > Active -></a>
+</body>
+</html>
